@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    
+    
+    <title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+    <link rel="stylesheet" href="styler.css">    
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-azul-escuro fixed-top">
+        <a class="navbar-brand ml-4" href="#">TADS - UFRN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ml-4">
+            <li class="nav-item active">
+              <a class="nav-link" href="#apre">Apresentação<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ensino
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="#">Currículos</a>
+                <a class="dropdown-item" href="#">Monografias</a>
+                <a class="dropdown-item" href="#">Artigos</a>
+                <a class="dropdown-item" href="#">Memoriais</a>
+                <a class="dropdown-item" href="#">Outros</a>
+                <a class="dropdown-item" href="#">Turmas</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="calendario.html">Calendário</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projeto pedagógico do curso</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Notícias</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documentos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#">Formulários</a>
+                <a class="dropdown-item" href="#">Resolução</a>
+                <a class="dropdown-item" href="#">Outros</a>
+              </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle azul-claro" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-globe"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                  <a class="dropdown-item" href="#">Ingles</a>
+                  <a class="dropdown-item" href="#">Espanhol</a>
+                  <a class="dropdown-item" href="#">Frances</a>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+    </header>
+    <main class="m-4">
+      <section id="apre" class="mx-4">
+        <article>
+          <h1 class="azul-claro h2">Apresentação</h1>
+          <figure class="my-3">
+            <img src="imgs/capa.jpg" alt="Minha Figura" class="displayed w-100 w-sm-75">
+          </figure>
+          <p>
+            O Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) tem como objetivo a formação de profissionais capazes de compreender o processo de construção e reconstrução do conhecimento no domínio da análise e desenvolvimento de sistemas e, dessa forma, realizar atividades de concepção, especificação, projeto, implementação, avaliação, suporte e manutenção de sistemas computacionais, orientando sua ação na sociedade em geral e no mundo do trabalho em particular para a busca de soluções para o setor produtivo (notadamente o setor primário da economia) e para a melhoria da qualidade de vida das populações. Os profissionais formados atuarão na área de análise e desenvolvimento de sistemas, podendo exercer atividades no campo da análise de sistemas, engenharia de software, gerência de projetos e administração de bancos de dados.
+          </p>
+          <p>
+            lém da formação geral em Tecnologia em Análise e Desenvolvimento de Sistemas, o curso tem objetivo de promover a integração entre as ciências agrárias e a denominada Tecnologia da Informação (TI) com suas diversas subáreas, obtendo-se assim uma gama de benefícios e ampliação do espectro de formação profissional em nível superior, considerando que um curso desta natureza permitirá ao egresso propor soluções tecnológicas em software e/ou hardware para as ciências agrárias ou, usando uma nomenclatura mais específica e mercadológica, para a cadeia do agronegócio e da agricultura familiar, sendo, nesse sentido estratégico para o desenvolvimento regional e nacional. Tais objetivos baseiam-se na formação de Tecnólogos com capacidade técnico-científica e visão integral, ética e humanística, comprometidos com o bem estar da sociedade envolvida e com o desenvolvimento sustentável, exercendo todas as competências relacionadas à profissão.
+          </p>
+        </article>
+      </section>
+      <section id="cal" class="mx-4 mt-4">  
+        <h1 class="azul-claro h2">Calendário</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-azul-escuro"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-azul-escuro"></li>
+          </ol> 
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex text-center">
+                <div class="card border-secondary m-3 w-50" >
+                  <div class="card-header"><i class="far fa-calendar azul-escuro h5"></i></div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title font-weight-bold azul-escuro">Matrícula para o período 2021.2.</h5>
+                    <p class="card-text">30/09/2021 - 07/10/2021</p>
+                  </div>
+                </div>
+                <div class="card border-secondary m-3 w-50">
+                  <div class="card-header"><i class="far fa-calendar azul-escuro h5"></i></div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title font-weight-bold azul-escuro">Início do período letivo 2021.2.</h5>
+                    <p class="card-text">04/10/2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex text-center">
+                <div class="card border-secondary m-3 w-50" >
+                  <div class="card-header"><i class="far fa-calendar azul-escuro h5"></i></div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title font-weight-bold azul-escuro">Matrícula para o período 2021.2.</h5>
+                    <p class="card-text ">30/09/2021 - 07/10/2021</p>
+                  </div>
+                </div>
+                <div class="card border-secondary m-3 w-50">
+                  <div class="card-header"><i class="far fa-calendar azul-escuro h5"></i></div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title font-weight-bold azul-escuro">Início do período letivo 2021.2.</h5>
+                    <p class="card-text">04/10/2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="not" class="mx-4 mt-4">
+        <h1 class="azul-claro h2">Agenda</h1>
+        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active bg-azul-escuro"></li>
+            <li data-target="#carouselExampleIndicators1" data-slide-to="1" class="bg-azul-escuro"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex text-center">
+                <div class="card border-secondary m-3 w-50">
+                  <div class="card-header"><i class="far fa-newspaper azul-escuro h5"></i></div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title font-weight-bold azul-escuro">PLANO DE CURSO DAS DISCIPLINAS DE 2021.2</h5>
+                  </div>
+                </div>
+                <div class="card border-secondary m-3 w-50">
+                  <div class="card-header"><i class="far fa-newspaper azul-escuro h5"></i></div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title font-weight-bold azul-escuro">CALENDÁRIO PARA PROJETO DE TRABALHO DE CONCLUSÃO DE CURSO ANO/SEMESTRE 2022.1</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex text-center">
+                <div class="card border-secondary m-3 w-50" >
+                  <div class="card-header"><i class="far fa-calendar azul-escuro h5"></i></div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title font-weight-bold azul-escuro">SEMANA DE DEFESA DE TRABALHOS DE CONCLUSÃO DE CURSO - ANO/SEMESTRE 2021.2</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </main>
+    <footer>
+        <div class="container-fluid branco bg-azul-escuro branco">
+          <div class="row align-items-center p-4">
+            <div class="col-12 col-sm-3"> <img src="imgs/nometads.png" alt="nometads.png" class="displayed"></div>
+            <div class="col-12 col-sm-9">
+              <address class="white-space-preline">
+                <a href="https://sigaa.ufrn.br" target="_blank">SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</a>
+                CURSO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS / EAJ
+                ESCOLA AGRÍCOLA DE JUNDIAÍ - EAJ
+                Telefone/Ramal: (84) 3342-2297/227
+              </address>
+
+            </div>
+          </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/8aeee931f4.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </footer>
+  </body>
+</html>
