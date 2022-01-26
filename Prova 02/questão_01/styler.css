@@ -8,9 +8,7 @@
   }
 
 body {background-color: var(--branco); font-family: 'Montserrat';}
-html{
-  scroll-behavior: smooth;
-}
+html{scroll-behavior: smooth;}
 
 .montserrat{ font-family: 'Montserrat'}
 
