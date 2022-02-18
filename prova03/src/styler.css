@@ -1,0 +1,59 @@
+:root {
+  --branco: #f4f4f4;
+  --azul-escuro: #2B3240;
+  --azul-claro: #8596A6;
+}
+
+body {background-color: var(--branco); font-family: 'Roboto'}
+main{padding-top: 56px;}
+h1,h2,h3,h4,h5,h6{ font-family: 'Montserrat'}
+html{scroll-behavior: smooth}
+.montserrat{ font-family: 'Montserrat'}
+.whiteSpacePreline{white-space: pre-line}
+
+.azul-escuro{color:var(--azul-escuro) !important}
+.azul-claro{color:var(--azul-claro) !important}
+.branco{color: var(--branco);}
+.azul-escuro-hover:hover {color:var(--azul-escuro)}
+.razul-claro-hover:hover {color:var(--azul-claro)}
+
+
+.bg-azul-escuro{background-color: var(--azul-escuro)} 
+.bg-azul-claro{background-color: var(--azul-claro)}
+.bg-azul-escuro-hover:hover {background-color: var(--azul-escuro)}
+.bg-azul-claro-hover:hover {background-color: var(--azul-claro)}
+
+
+.w-10{width: 10% !important}
+.w-20{width: 20% !important}
+.w-30{width: 30% !important}
+.w-33{width: 33.333% !important}
+.w-80{width: 80% !important}
+.h-100vh{height: 100vh}
+.h-60vh{height: 60vh}
+.h-100{height: 100%;}
+
+.displayed {
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+.carousel-indicators {
+bottom: -30px;
+}
+.carousel-indicators .active {
+background-color: var(--azul-escuro) !important;
+}
+.b-radios{border-radius: 0.5rem;}
+
+@media(min-width: 768px) {
+.display-sm-3{font-size: 4.5rem !important;}
+.w-sm-75{width: 75% !important}
+.w-sm-50{width: 50% !important}
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
